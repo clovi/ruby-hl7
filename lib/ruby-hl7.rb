@@ -48,13 +48,13 @@ end
 class HL7::EmptySegmentNotAllowed < HL7::ParseError
 end
 
-require 'message_parser'
-require 'message'
-require 'segment_list_storage'
-require 'segment_generator'
-require 'segment_fields'
-require 'segment'
-require 'segment_default'
+require 'ruby-hl7/message_parser'
+require 'ruby-hl7/message'
+require 'ruby-hl7/segment_list_storage'
+require 'ruby-hl7/segment_generator'
+require 'ruby-hl7/segment_fields'
+require 'ruby-hl7/segment'
+require 'ruby-hl7/segment_default'
 
 require 'core_ext/date_time'
 require 'core_ext/string'
